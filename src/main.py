@@ -9,6 +9,7 @@ def subtraction(x: int, y: int) -> int:
 def multiplication(x: int, y: int) -> int:
     return x * y
 
+
 a = int(input("Enter the value a: "))
 b = int(input("Enter the value b: "))
 
