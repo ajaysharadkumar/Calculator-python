@@ -10,9 +10,14 @@ def multiplication(x: int, y: int) -> int:
     return x * y
 
 
+def division(x: int, y: int) -> int:
+    return x // y
+
+
 a = int(input("Enter the value a: "))
 b = int(input("Enter the value b: "))
 
 print(f"Addition of a two number is {addition(a, b)}")
 print(f"Subtraction of a two number is {subtraction(a, b)}")
 print(f"Multiplication of a two number is {multiplication(a, b)}")
+print(f"Division of a two number is {division(a, b)}")
